@@ -14,6 +14,8 @@ require_once "Source/Componentes/headG.php";
                         require_once 'alterarProduto.php';
                     } else if ($valor == 'removerProduto') {
                         require_once 'removerProduto.php';
+                    } else if($valor == 'inserirCategoria'){
+                        require_once 'inserirCategoria.php';
                     }
                     ?>
                 </div>
